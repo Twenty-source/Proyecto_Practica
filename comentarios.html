@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Comentarios - Hollow Knight</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Comentarios de Hollow Knight</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="personajes.html">Personajes</a></li>
+        <li><a href="curiosidades.html">Curiosidades</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="comentarios-section">
+      <h2>Deja tu comentario</h2>
+
+      <form id="comentario-form" class="comentario-form">
+        <input type="text" id="nombre" placeholder="Tu nombre" required />
+        <textarea id="mensaje" placeholder="Tu comentario" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+
+      <h3>Comentarios anteriores</h3>
+      <div id="comentarios-lista" class="comentarios-lista">
+        <!-- Comentarios cargados dinámicamente -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Página creada por [Alan Mitchel]</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
